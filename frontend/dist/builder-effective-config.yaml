@@ -1,0 +1,30 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.uniproyect.matrixcalc
+productName: Matrix Calculator
+files:
+  - filter:
+      - '**/*'
+      - ../backend/dist/**
+extraResources:
+  - from: ../backend/dist/
+    to: backend
+    filter:
+      - app*
+      - app.exe
+win:
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+mac:
+  target:
+    - dmg
+    - zip
+linux:
+  target:
+    - AppImage
+    - deb
+electronVersion: 38.0.0

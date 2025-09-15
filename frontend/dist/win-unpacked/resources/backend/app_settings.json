@@ -1,0 +1,8 @@
+{
+  "theme": "light",
+  "primary_color": "#007bff",
+  "font_size": 14,
+  "font_family": "Arial",
+  "decimal_places": 4,
+  "show_fractions": true
+}
