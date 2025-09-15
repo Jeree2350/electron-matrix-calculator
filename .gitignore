@@ -1,0 +1,83 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+.env
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.pyre/
+.mypy_cache/
+*.sqlite3
+*.log
+
+# -------------------
+# Node / Electron
+# -------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Electron specific
+*.asar
+*.asar.unpack
+electron-builder.json
+electron-builder.yml
+release/
+*.map
+
+# -------------------
+# System / IDE
+# -------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swn
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------
+# Misc
+# -------------------
+*.log
+*.bak
+*.old
+*.orig
